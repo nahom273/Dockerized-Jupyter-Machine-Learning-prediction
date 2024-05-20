@@ -1,5 +1,5 @@
 FROM jupyter/tensorflow-notebook 
-
+# this code will help us to download all the nessacary packages from docker
 WORKDIR /home/docker_Energy/work  
 
 COPY requirements.txt ./requirements.txt
